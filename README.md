@@ -9,6 +9,39 @@
 - README.md    首页
 - Recommend.md  推荐网站、软件、资源等等
 
+## 第二次任务  ##
+**2015.10.19**
+
+**关于在GitHub上如何复制到本地，提交，更新，更新到本地，这几天挑个空会写一篇注明**
+
+1.  选择一种合适的版面布局，优化你的第一次网页排版
+  
+    可选的方法参考：
+	1. 表格（最简单，在Dreamweaver里可视化程度高）
+	2. div + position/float 可以参考慕课网 [http://www.imooc.com/learn/95](http://www.imooc.com/learn/95) 或者 [http://www.imooc.com/learn/57](http://www.imooc.com/learn/57)
+
+
+2. **GitHub**
+    1. 注册GitHub，Fork这个Repository
+    2. Clone你Fork的版本到本地
+    3. 将你第一次制作的网页（以文件夹的形式，命名为你的名字）放到 FirstHTML 文件夹下，并提交到你的GitHub上
+    4. 在Github上提交Pull Request给我 
+    
+    **如无特殊说明，这就是以后提交作业的方式**
+
+3.  **JavaScript**
+
+	JavaScript是适用于Web的语言，可以实现更多页面交互效果
+       1. W3School上的JavaScript相关内容
+       2. 实现一个页面，
+       	1. 点击页面中某个元素，可以更改页面上的内容
+       	2. 实现在一个<p></p>或者<div></div>(只要是能显示内部文字的标签)中当前时间的实时显示
+       	3. 验证在一个input中输入的是否为合法的手机号码（数字，11位...），并作出相应提示，注意是在输入的时候实时提示
+       	4. （可选）打开你们的脑洞吧<(￣︶￣)>
+       3. 将这个页面提交到 **SecondMission** 文件夹下
+       
+###预告###
+下一次培训（并不清楚什么时候=.=）主题计划是居中、定位
 
 ##前端的首次任务##
 **2015.9.29**

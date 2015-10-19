@@ -2,7 +2,7 @@
 ----
 > 如果有好的资源可以直接附加在相对应的版块之后，注意尽量附上链接
 
-> 更新日期 2015.9.29
+> 更新日期 2015.10.16
 
 #软件#
 ###Sublime Text###
@@ -26,3 +26,6 @@
 ###BootStrap###
  - 英文原版网站：[http://getbootstrap.com/](http://getbootstrap.com/)
  - 中文翻译网站：[http://www.bootcss.com/](http://www.bootcss.com/)
+
+###前端开发规范手册###
+ - 前端开发规范手册：[http://zhibimo.com/read/Ashu/front-end-style-guide/](http://zhibimo.com/read/Ashu/front-end-style-guide/ "前端开发规范手册")
