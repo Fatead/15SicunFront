@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html ; charset=UTF-8" />
+		<link rel="shorcut icon" href="title.ico" />
+		<title> 224 </title>	
+		<style type="text/css">
+			body{
+				background-color:#8A2BE2 ;
+				background-image:url(image/bg2.jpg);
+				overflow-x: hidden; overflow-y: hidden;
+				}
+			ul{
+				list-style:none;
+				float:left;
+			}
+			a{
+				text-decoration:none;
+				text-shadow:5px 5px 5px #ff0000;
+				font-family:"";
+				color:#564541;
+				}
+			a:hover{
+				color:#ffffff;
+				font-size:1em;
+					}
+				li{border:0px solid;
+				border-radius:0px;
+				-moz-border-radius:0px;
+				}
+			li:hover{
+				background-color:#000000;
+					}
+			.top{
+				background-color:#000000;
+				position:absolute;
+				top:0px;
+				left:0;
+				width:100%;
+				height:92px;
+				}
+			.logo{
+				width:100px;
+				height:92px;
+				float:left;
+				border:0;
+				margin:0;
+				padding:0;
+				transition:width 2s, height 2s;
+				-moz-transition:width 2s, height 2s, -moz-transform 2s; 
+				-webkit-transition:width 2s, height 2s, -webkit-transform 2s; 
+				-o-transition:width 2s, height 2s, -o-transform 2s; 
+				}
+			.logo:hover{
+				transform:rotateY(360deg);
+				-moz-transform:rotateY(360deg); 
+				-webkit-transform:rotateY(360deg);  
+				-o-transform:rotateY(360deg); 
+						}
+			.chjiu{
+					position:absolute;
+					left:348px;
+					top:16px;
+					font-size:2.5em;
+					text-decoration:none;
+					background-color:#f3fc21;
+					margin:0;
+					padding:0;
+					width:300px;
+					text-align:center;
+					letter-spacing:5px;
+					transition:background-color 1s;
+					}
+			.shoye{
+					float:left;
+					position:absolute;
+					left:52px;
+					top:-16px;
+					}
+			.shoyea{
+					font-size:2.5em;
+					text-decoration:none;
+					background-color:#33ff21;
+					margin:0;
+					padding:0;
+					width:300px;
+					text-align:center;
+					letter-spacing:5px;
+					position:absolute;
+					top:16px;
+					left:48px;
+					transition:background-color 1s;	
+					}
+			.shoyea:hover{
+					background-color:#454cbf;
+							}
+			.pok{
+					font-size:2.5em;
+					background-color:#56f0f1;
+					margin:0;
+					padding:0;
+					width:200px;
+					text-align:center;
+					letter-spacing:5px;
+					position:absolute;
+					left:648px;
+					top:16px;
+					transition:background-color 1s;
+				}
+				.pok:hover{
+							background-color:#bf541c;}
+			.wenhua{
+					font-size:2.5em;
+					background-color:#56f0f1;
+					margin:0;
+					padding:0;
+					width:200px;
+					text-align:center;
+					letter-spacing:5px;
+					position:absolute;
+					top:62px;
+					left:248px;
+					transition:background-color 1s;
+					}
+				.wenhua:hover{
+								background-color:#fb465f;
+								}
+				.renyu{
+					font-size:2.5em;
+					background-color:#f0ff21;
+					margin:0;
+					padding:0;
+					width:100px;
+					text-align:center;
+					letter-spacing:5px;
+					position:absolute;
+					top:62px;
+					left:648px;
+					transition:background-color 1s;
+						}
+					.renyu:hover{
+						background-color:#2fb6cb;
+								}
+				.jisu{
+					font-size:2.5em;
+					background-color:#f0bf21;
+					margin:0;
+					padding:0;
+					width:200px;
+					text-align:center;
+					letter-spacing:5px;
+					position:absolute;
+					top:62px;
+					left:448px;
+					transition:background-color 1s;
+					}
+					.jisu:hover{
+						background-color:#fb565f;
+								}
+				.jiti{
+					font-size:2.5em;
+					background-color:#f0bf21;
+					margin:0;
+					padding:0;
+					width:100px;
+					text-align:center;
+					letter-spacing:5px;
+					position:absolute;
+					top:62px;
+					left:748px;
+					transition:background-color 1s;
+					}
+				.jiti:hover{
+					background-color:#556B2F;
+							}
+				.gush{
+					font-size:2.5em;
+					background-color:#56f0f1;
+					margin:0;
+					padding:0;
+					width:100px;
+					height:100px
+					text-align:center;
+					letter-spacing:5px;
+					position:absolute;
+					top:62px;
+					left:48px;
+					transition:background-color 1s;
+					}
+				.zixun{
+					font-size:2.5em;
+					background-color:#f0ff21;
+					margin:0;
+					padding:0;
+					width:100px;
+					height:100px
+					text-align:center;
+					letter-spacing:5px;
+					position:absolute;
+					top:62px;
+					left:148px;
+					transition:background-color 1s;
+						}
+				.lianxi{
+				    font-size:2.5em;
+					background-color:#f0ff21;
+					margin:0;
+					padding:0;
+					width:100px;
+					height:100px
+					text-align:center;
+					letter-spacing:5px;
+					float:right;
+					transition:background-color 1s;
+					position:absolute;
+					top:16px;
+					left:848px;
+						}
+				.ss{
+					background-color:#ffffff;
+					width:20%;
+					height:1000px;
+					color:#ffffff;
+						}
+				.sousuo{
+						position:absolute;
+						top:30px;
+						left:1080px;
+						z-index:2;
+						}
+				.bg1{
+					position:absolute;
+					top:0px;
+					left:1000px;
+					width:365px;
+					height:92px;
+					z-index:1;
+						}
+				.content{
+					position:absolute;
+					top:92px;
+						}
+				.rig{
+					background-color:#ffffff;
+					width:1000px;
+						}
+				.pzy{
+					position:absolute;
+					top:5px;
+					left:1050px;
+					width:110px;
+					height:150px;
+					}
+				.pzy1{
+					position:absolute;
+					top:158px;
+					left:1050px;
+					width:110px;
+						}
+				.yxj{
+					position:absolute;
+					top:5px;
+					left:1200px;
+					width:110px;
+					height:150px;
+					}
+				.yxj1{
+					position:absolute;
+					top:158px;
+					left:1200px;
+					width:110px;
+					}
+				.hyc{
+					position:absolute;
+					top:250px;
+					left:1050px;
+					height:150px;
+					width:110px;
+					}
+				.hyc1{
+					position:absolute;
+					top:403px;
+					left:1050px;
+					width:110px
+						}
+				.cbc{
+					position:absolute;
+					top:250px;
+					left:1200px;
+					width:110px;
+					height:150px;
+					}
+				.cbc1{
+					position:absolute;
+					top:403px;
+					left:1200px;
+					width:110px;
+						}
+				.main{
+					position:absolute;
+					left:320px;
+					top:100px;
+					border:0;
+							}
+				.music{
+				position:absolute;
+					left:20px;
+					top:100px;
+						}
+				.play{
+					position:absolute;
+					top:500px;
+					left:0;
+						}
+		</style>
+	</head>
+	<body>
+		<div class="top">
+			<a href="xx.html"><img src="image/logo1.jpg"  class="logo"/></a>			
+			<span class="shoye">
+			  <ul>
+				<a href="xx.html" target="main"><li class="shoyea">我们的首页</li></a>
+				<a href="xx.html"><li class="chjiu">获得的成就</li></a>
+				<a href="xx.html"><li class="jisu">技术交流</li></a><br />
+				<a href="xx.html"><li class="wenhua">寝室文化</li></a>
+				<a href="xx.html"><li class="renyu">人员</li></a>
+				<a href="xx.html"><li class="jiti">活动</li></a>
+				<a href="xx.html"><li class="pok">个人博客</li></a>
+				<a href="xx.html"><li class="zixun">咨询</li></a>
+				<a href="gushi.html" target="main"><li class="gush">故事</li></a> 
+				<a href="xx.html"><li class="lianxi">联系我们</li></a>
+			  </ul>
+			 </span>
+			 <span class="sousuo">
+				<form method="post" action="xx.html">
+					<input type="text" value="请输入搜索内容" />
+					<input type="submit" value="搜索" />
+				</form>
+			 </span>
+			 <span>
+					<img src="image/bg1.jpg" class="bg1" />
+			 </span>
+		</div>
+		<div class="content">
+			<span class="rig">
+				<img src="image/pepole1.jpg" alt="pzy" class="pzy"/>
+				<img src="image/pepole2.jpg" alt="yxj" class="yxj" />
+				<img src="image/pepole3.jpg" alt="hyc" class="hyc" />
+				<img src="image/pepole4.jpg" alt="cbc" class="cbc" />
+				<div class="pzy1"><iframe src="pzy.txt" width="105" height="80"></iframe></div>
+				<div class="yxj1"><iframe src="yxj.txt" width="105" height="80"></iframe></div>
+				<div class="hyc1"><iframe src="hyc.txt" width="105" height="80"></iframe></div>
+				<div class="cbc1"><iframe src="cbc.txt" width="105" height="80"></iframe></div>
+				<hr size="480px" width="5" noshade style="position:absolute; left:990px;top:-5px; background-color:#ffff00;"/>
+			</span>
+			<span class="center">
+			</span>
+			<span class="left">
+			</span>
+		</div>
+		<div class="music">
+			<p><a href="music/bgmusic2.mp3" target="yyue">music1</a></p>
+			<p><a href="music/bgmusic2.mp3" target="yyue">music2</a></p>
+			<p><a href="music/bgmusic2.mp3" target="yyue">music3</a></p>
+			<p><a href="music/bgmusic2.mp3" target="yyue">music4</a></p>
+			<p><a href="music/bgmusic2.mp3" target="yyue">music5</a></p>
+			<p><a href="music/bgmusic2.mp3" target="yyue">music6</a></p>
+			<p><a href="music/bgmusic2.mp3" target="yyue">music7</a></p>
+			<p><a href="music/bgmusic2.mp3" target="yyue">music8</a></p>
+			<form action="http://www.baidu.com">
+				<input type="text" size="42" maxlength="100"/><br />
+                <input type="submit" value="百度一下" />
+			</form>
+		</div>
+		<iframe src="yyue.html" name="yyue" class="play" ></iframe>
+		<div  class="main" ><iframe src="gushi.html" name="main" width="600px" height="470px"></iframe></div>
+		<div class="entertainment"></div>
+	</body>
+</html>
